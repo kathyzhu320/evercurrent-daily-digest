@@ -1,5 +1,9 @@
 # EverCurrent Adaptive Daily Digest
 
+### 🚀 [Launch Live Demo](https://evercurrent-daily-digest.streamlit.app)
+
+**Interactive Streamlit MVP** · [Technical Answers](docs/ANSWERS.pdf) · [Architecture](docs/architecture.png)
+
 EverCurrent Adaptive Daily Digest turns fragmented engineering Slack conversations into role-, phase-, and priority-aware daily updates. This interview MVP uses a fixed Project Atlas snapshot so a reviewer can reproduce the same decisions, inspect their sources, and compare what different team members see. It runs fully without an LLM API key.
 
 ## Why this problem matters
