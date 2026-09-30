@@ -20,13 +20,20 @@ The main digest view surfaces up to five ranked stories for a selected persona. 
 
 Users can change the **project phase** and current **priorities**, which changes what the system considers most important. The same engineering conversation may matter differently during Design, Prototype, Validation, or Production.
 
-**Phase selection**
-
-![Project phase selection](docs/screenshots/phase-selector.png)
-
-**Priority selection**
-
-![Current priority selection](docs/screenshots/priority-selector.png)
+<table>
+  <tr>
+    <td align="center"><strong>Phase selection</strong></td>
+    <td align="center"><strong>Priority selection</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/phase-selector.png" width="330" alt="Project phase selection">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/priority-selector.png" width="330" alt="Current priority selection">
+    </td>
+  </tr>
+</table>
 
 ### 3. Compare personas
 
