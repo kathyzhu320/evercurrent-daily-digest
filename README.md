@@ -27,10 +27,10 @@ Users can change the **project phase** and current **priorities**, which changes
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/screenshots/phase-selector.png" width="330" alt="Project phase selection">
+      <img src="docs/screenshots/phase-selector.png" width="300" alt="Project phase selection">
     </td>
     <td align="center">
-      <img src="docs/screenshots/priority-selector.png" width="330" alt="Current priority selection">
+      <img src="docs/screenshots/priority-selector.png" width="300" alt="Current priority selection">
     </td>
   </tr>
 </table>
