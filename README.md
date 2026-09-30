@@ -1,6 +1,8 @@
-# Adaptive Daily Digest Tool
+# Adaptive Daily Digest Tool  
 
-### 🚀 [Launch Live Demo](https://evercurrent-daily-digest.streamlit.app)  
+### 🚀 [Launch Live Demo](https://evercurrent-daily-digest.streamlit.app)    
+
+**Algorithm details:** [Technical Specification](docs/SPEC.md) — hybrid retrieval, six-signal ranking, severity floor, and relationship detection.
 
 
   
