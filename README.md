@@ -55,11 +55,21 @@ Supporting captures show [Why ranked?](docs/screenshots/why-ranked.png), a [comp
 
 **Ranking decides WHAT matters. The LLM decides HOW to summarize already selected information.** ACL, relevance, grouping, Severity Floor, and Top-K selection are deterministic. Optional model output never changes those decisions.
 
-## Architecture
+## System Architecture & Data Flow
 
-![EverCurrent architecture](docs/architecture.png)
+The architecture separates user interaction, application orchestration, data processing, and summarization. It illustrates how authorized engineering messages and user context flow through the digest engine, and how relevance feedback informs subsequent ranking.
 
-[Editable diagram source](docs/architecture.mmd). ACL and metadata filter the 72-hour pool before retrieval. Deterministic TF-IDF cosine candidate retrieval is unioned with keyword, priority, and exact-identifier hits. Related authorized messages are grouped; a six-signal score ranks stories; a Severity Floor can protect up to two eligible risks within the five-story limit. Only those final stories reach grounded summarization and identifier-level checking.
+![System Architecture and Data Flow](docs/architecture.png)
+
+[Editable architecture diagram (draw.io)](docs/architecture.drawio)
+
+## Digest Generation Pipeline
+
+The pipeline illustrates how engineering messages are filtered, retrieved, grouped, ranked, and summarized. A severity floor helps preserve critical risks within the final Top-K selection.
+
+![Digest Generation Pipeline](docs/pipeline.png)
+
+[Simplified pipeline diagram (Mermaid)](docs/pipeline.mmd). This Mermaid file shows the processing stages but does not reproduce the PNG's full wording or visual layout.
 
 ## Personalization
 
