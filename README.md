@@ -1,4 +1,4 @@
-# EverCurrent Adaptive Daily Digest  
+# Adaptive Daily Digest Tool
 
 ### 🚀 [Launch Live Demo](https://evercurrent-daily-digest.streamlit.app)  
 
