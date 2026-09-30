@@ -1,0 +1,105 @@
+[
+  {
+    "persona_id": "sarah",
+    "name": "Sarah Chen",
+    "role": "ME",
+    "owns": [
+      "motor_mount",
+      "chassis"
+    ],
+    "channels": [
+      "atlas-general",
+      "atlas-mechanical",
+      "atlas-electrical",
+      "atlas-testing",
+      "atlas-supply-chain"
+    ],
+    "default_priorities": [
+      "vibration",
+      "integration",
+      "testing"
+    ]
+  },
+  {
+    "persona_id": "priya",
+    "name": "Priya Nair",
+    "role": "EE",
+    "owns": [
+      "motor_driver",
+      "battery_pack",
+      "power_board"
+    ],
+    "channels": [
+      "atlas-general",
+      "atlas-mechanical",
+      "atlas-electrical",
+      "atlas-testing",
+      "atlas-supply-chain"
+    ],
+    "default_priorities": [
+      "thermal",
+      "battery",
+      "firmware_if"
+    ]
+  },
+  {
+    "persona_id": "raj",
+    "name": "Raj Patel",
+    "role": "SC",
+    "owns": [
+      "bom",
+      "vendor_contracts"
+    ],
+    "channels": [
+      "atlas-general",
+      "atlas-mechanical",
+      "atlas-electrical",
+      "atlas-testing",
+      "atlas-supply-chain"
+    ],
+    "default_priorities": [
+      "supplier",
+      "lead_time"
+    ]
+  },
+  {
+    "persona_id": "marcus",
+    "name": "Marcus Lee",
+    "role": "EM",
+    "owns": [
+      "schedule"
+    ],
+    "channels": [
+      "atlas-general",
+      "atlas-mechanical",
+      "atlas-electrical",
+      "atlas-testing",
+      "atlas-supply-chain",
+      "atlas-leadership"
+    ],
+    "default_priorities": [
+      "milestone",
+      "dependency"
+    ]
+  },
+  {
+    "persona_id": "lena",
+    "name": "Lena Torres",
+    "role": "PM",
+    "owns": [
+      "roadmap"
+    ],
+    "channels": [
+      "atlas-general",
+      "atlas-mechanical",
+      "atlas-electrical",
+      "atlas-testing",
+      "atlas-supply-chain",
+      "atlas-leadership"
+    ],
+    "default_priorities": [
+      "milestone",
+      "scope"
+    ]
+  }
+]

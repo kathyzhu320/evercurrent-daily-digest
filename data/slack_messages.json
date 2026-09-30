@@ -1,0 +1,2429 @@
+[
+  {
+    "message_id": "M001",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T08:08:00Z",
+    "author": "David",
+    "author_role": "ME",
+    "thread_id": "T001",
+    "text": "Risk: Vibration on motor mount MM-2100 measured 4.2 mm/s on bench A at 2000 RPM, loaded. Fixture unchanged; independent log attached, pending reconciliation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "vibration",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_mount"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MM-2100",
+        "unit": "",
+        "raw": "MM-2100",
+        "start": 31,
+        "end": 38,
+        "source_message_id": "M001"
+      },
+      {
+        "kind": "vibration",
+        "value": "4.2",
+        "unit": "mm/s",
+        "raw": "4.2 mm/s",
+        "start": 48,
+        "end": 56,
+        "source_message_id": "M001"
+      },
+      {
+        "kind": "speed",
+        "value": "2000",
+        "unit": "RPM",
+        "raw": "2000 RPM",
+        "start": 71,
+        "end": 79,
+        "source_message_id": "M001"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_mount",
+    "metric": "vibration"
+  },
+  {
+    "message_id": "M002",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T08:16:00Z",
+    "author": "Mei",
+    "author_role": "ME",
+    "thread_id": "T002",
+    "text": "Risk: Vibration on motor mount MM-2100 measured 6.8 mm/s on bench A at 2000 RPM, loaded. Fixture unchanged; independent log attached, pending reconciliation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "vibration",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_mount"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MM-2100",
+        "unit": "",
+        "raw": "MM-2100",
+        "start": 31,
+        "end": 38,
+        "source_message_id": "M002"
+      },
+      {
+        "kind": "vibration",
+        "value": "6.8",
+        "unit": "mm/s",
+        "raw": "6.8 mm/s",
+        "start": 48,
+        "end": 56,
+        "source_message_id": "M002"
+      },
+      {
+        "kind": "speed",
+        "value": "2000",
+        "unit": "RPM",
+        "raw": "2000 RPM",
+        "start": 71,
+        "end": 79,
+        "source_message_id": "M002"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_mount",
+    "metric": "vibration"
+  },
+  {
+    "message_id": "M003",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T08:24:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T003",
+    "text": "Risk: Vibration on motor mount MM-2100 measured 6.8 mm/s on bench A at 3000 RPM, loaded. Fixture unchanged; independent log attached, pending reconciliation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "vibration",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_mount"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MM-2100",
+        "unit": "",
+        "raw": "MM-2100",
+        "start": 31,
+        "end": 38,
+        "source_message_id": "M003"
+      },
+      {
+        "kind": "vibration",
+        "value": "6.8",
+        "unit": "mm/s",
+        "raw": "6.8 mm/s",
+        "start": 48,
+        "end": 56,
+        "source_message_id": "M003"
+      },
+      {
+        "kind": "speed",
+        "value": "3000",
+        "unit": "RPM",
+        "raw": "3000 RPM",
+        "start": 71,
+        "end": 79,
+        "source_message_id": "M003"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_mount",
+    "metric": "vibration"
+  },
+  {
+    "message_id": "M004",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T08:32:00Z",
+    "author": "Mei",
+    "author_role": "ME",
+    "thread_id": "T004",
+    "text": "Forwarded: Risk: Vibration on motor mount MM-2100 measured 6.8 mm/s on bench A at 2000 RPM, loaded. Fixture unchanged; independent log attached, pending reconciliation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "vibration",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_mount"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MM-2100",
+        "unit": "",
+        "raw": "MM-2100",
+        "start": 42,
+        "end": 49,
+        "source_message_id": "M004"
+      },
+      {
+        "kind": "vibration",
+        "value": "6.8",
+        "unit": "mm/s",
+        "raw": "6.8 mm/s",
+        "start": 59,
+        "end": 67,
+        "source_message_id": "M004"
+      },
+      {
+        "kind": "speed",
+        "value": "2000",
+        "unit": "RPM",
+        "raw": "2000 RPM",
+        "start": 82,
+        "end": 90,
+        "source_message_id": "M004"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_mount",
+    "metric": "vibration"
+  },
+  {
+    "message_id": "M005",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T08:40:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T005",
+    "text": "Risk: Lead time for supplier driver chip MD-4820-X is 12 weeks. BOM allocation is not secured; purchasing needs the delivery estimate before releasing the order.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "lead_time",
+      "supplier",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_driver",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MD-4820-X",
+        "unit": "",
+        "raw": "MD-4820-X",
+        "start": 41,
+        "end": 50,
+        "source_message_id": "M005"
+      },
+      {
+        "kind": "lead_time",
+        "value": "12",
+        "unit": "weeks",
+        "raw": "12 weeks",
+        "start": 54,
+        "end": 62,
+        "source_message_id": "M005"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_driver",
+    "metric": "lead_time"
+  },
+  {
+    "message_id": "M006",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T08:48:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T006",
+    "text": "Update replaces M005: Risk: Lead time for supplier driver chip MD-4820-X is 20 weeks. BOM allocation is not secured; purchasing needs the delivery estimate before releasing the order.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "lead_time",
+      "supplier",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_driver",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MD-4820-X",
+        "unit": "",
+        "raw": "MD-4820-X",
+        "start": 63,
+        "end": 72,
+        "source_message_id": "M006"
+      },
+      {
+        "kind": "lead_time",
+        "value": "20",
+        "unit": "weeks",
+        "raw": "20 weeks",
+        "start": 76,
+        "end": 84,
+        "source_message_id": "M006"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_driver",
+    "metric": "lead_time"
+  },
+  {
+    "message_id": "M007",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T08:56:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T007",
+    "text": "Forwarded: Risk: Lead time for supplier driver chip MD-4820-X is 20 weeks. BOM allocation is not secured; purchasing needs the delivery estimate before releasing the order.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "lead_time",
+      "supplier",
+      "motor"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "motor_driver",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "MD-4820-X",
+        "unit": "",
+        "raw": "MD-4820-X",
+        "start": 52,
+        "end": 61,
+        "source_message_id": "M007"
+      },
+      {
+        "kind": "lead_time",
+        "value": "20",
+        "unit": "weeks",
+        "raw": "20 weeks",
+        "start": 65,
+        "end": 73,
+        "source_message_id": "M007"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_driver",
+    "metric": "lead_time"
+  },
+  {
+    "message_id": "M008",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T09:04:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T008",
+    "text": "Dependency handoff: alternate motor driver footprint review completed. EE will check the interface before SC requests a second vendor quotation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "dependency",
+      "motor",
+      "firmware_if"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "motor_driver",
+      "vendor_contracts",
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M009",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T09:12:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T009",
+    "text": "Risk: Thermal result for battery BP-2400 rev B at 24V is 61 C on bench B, loaded. Cooling fixture recorded; pack release awaits an engineering review.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "thermal",
+      "battery"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "battery_pack"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "BP-2400",
+        "unit": "",
+        "raw": "BP-2400",
+        "start": 33,
+        "end": 40,
+        "source_message_id": "M009"
+      },
+      {
+        "kind": "revision",
+        "value": "REV B",
+        "unit": "",
+        "raw": "rev B",
+        "start": 41,
+        "end": 46,
+        "source_message_id": "M009"
+      },
+      {
+        "kind": "voltage",
+        "value": "24",
+        "unit": "V",
+        "raw": "24V",
+        "start": 50,
+        "end": 53,
+        "source_message_id": "M009"
+      },
+      {
+        "kind": "temperature",
+        "value": "61",
+        "unit": "C",
+        "raw": "61 C",
+        "start": 57,
+        "end": 61,
+        "source_message_id": "M009"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "battery_pack",
+    "metric": "thermal"
+  },
+  {
+    "message_id": "M010",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T09:20:00Z",
+    "author": "Jun",
+    "author_role": "EE",
+    "thread_id": "T010",
+    "text": "Risk: Thermal result for battery BP-2400 rev C at 48V is 74 C on bench B, loaded. Cooling fixture recorded; pack release awaits an engineering review.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "thermal",
+      "battery"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "battery_pack"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "BP-2400",
+        "unit": "",
+        "raw": "BP-2400",
+        "start": 33,
+        "end": 40,
+        "source_message_id": "M010"
+      },
+      {
+        "kind": "revision",
+        "value": "REV C",
+        "unit": "",
+        "raw": "rev C",
+        "start": 41,
+        "end": 46,
+        "source_message_id": "M010"
+      },
+      {
+        "kind": "voltage",
+        "value": "48",
+        "unit": "V",
+        "raw": "48V",
+        "start": 50,
+        "end": 53,
+        "source_message_id": "M010"
+      },
+      {
+        "kind": "temperature",
+        "value": "74",
+        "unit": "C",
+        "raw": "74 C",
+        "start": 57,
+        "end": 61,
+        "source_message_id": "M010"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "battery_pack",
+    "metric": "thermal"
+  },
+  {
+    "message_id": "M011",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T09:28:00Z",
+    "author": "Sarah Chen",
+    "author_role": "ME",
+    "thread_id": "T011",
+    "text": "Integration update: battery cooling duct fit check completed on chassis. Bracket access is clear; thermal team can instrument the next pack build.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "integration",
+      "battery",
+      "thermal"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis",
+      "battery_pack"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "battery_pack",
+    "metric": "thermal"
+  },
+  {
+    "message_id": "M012",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T09:36:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T012",
+    "text": "Risk: Battery power board PB-4800 output voltage is 24V with firmware v2.1 on bench C. The harness team needs a confirmed interface requirement before release.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "battery",
+      "firmware_if"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "battery_pack",
+      "power_board"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "PB-4800",
+        "unit": "",
+        "raw": "PB-4800",
+        "start": 26,
+        "end": 33,
+        "source_message_id": "M012"
+      },
+      {
+        "kind": "voltage",
+        "value": "24",
+        "unit": "V",
+        "raw": "24V",
+        "start": 52,
+        "end": 55,
+        "source_message_id": "M012"
+      },
+      {
+        "kind": "version",
+        "value": "V2.1",
+        "unit": "",
+        "raw": "v2.1",
+        "start": 70,
+        "end": 74,
+        "source_message_id": "M012"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "power_board",
+    "metric": "voltage"
+  },
+  {
+    "message_id": "M013",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T09:44:00Z",
+    "author": "Jun",
+    "author_role": "EE",
+    "thread_id": "T013",
+    "text": "Risk: Battery power board PB-4800 output voltage is 48V with firmware v2.1 on bench C. The harness team needs a confirmed interface requirement before release.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "battery",
+      "firmware_if"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "battery_pack",
+      "power_board"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "PB-4800",
+        "unit": "",
+        "raw": "PB-4800",
+        "start": 26,
+        "end": 33,
+        "source_message_id": "M013"
+      },
+      {
+        "kind": "voltage",
+        "value": "48",
+        "unit": "V",
+        "raw": "48V",
+        "start": 52,
+        "end": 55,
+        "source_message_id": "M013"
+      },
+      {
+        "kind": "version",
+        "value": "V2.1",
+        "unit": "",
+        "raw": "v2.1",
+        "start": 70,
+        "end": 74,
+        "source_message_id": "M013"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "power_board",
+    "metric": "voltage"
+  },
+  {
+    "message_id": "M014",
+    "channel": "atlas-leadership",
+    "timestamp": "2026-09-27T09:52:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T014",
+    "text": "Risk: Milestone validation schedule date is 10/15. Schedule reserve depends on reliability sign-off; leadership has not approved customer communication.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "milestone",
+      "testing",
+      "scope"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "schedule",
+      "roadmap"
+    ],
+    "entities": [
+      {
+        "kind": "date",
+        "value": "10/15",
+        "unit": "",
+        "raw": "10/15",
+        "start": 44,
+        "end": 49,
+        "source_message_id": "M014"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "schedule",
+    "metric": "date"
+  },
+  {
+    "message_id": "M015",
+    "channel": "atlas-leadership",
+    "timestamp": "2026-09-27T10:00:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T015",
+    "text": "Update replaces M014: Risk: Milestone validation schedule date is 10/29. Schedule reserve depends on reliability sign-off; leadership has not approved customer communication.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "milestone",
+      "testing",
+      "scope"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "schedule",
+      "roadmap"
+    ],
+    "entities": [
+      {
+        "kind": "date",
+        "value": "10/29",
+        "unit": "",
+        "raw": "10/29",
+        "start": 66,
+        "end": 71,
+        "source_message_id": "M015"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "schedule",
+    "metric": "date"
+  },
+  {
+    "message_id": "M016",
+    "channel": "atlas-leadership",
+    "timestamp": "2026-09-27T10:08:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T016",
+    "text": "Scope decision approved: customer pilot excludes autonomous trailer loading. Roadmap retains supervised docking; commercial impact needs a private account review.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "scope"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M017",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T10:16:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T017",
+    "text": "Milestone update: public integration checkpoint remains 10/01. No customer date committed; testing sign-off is still required.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "milestone",
+      "integration",
+      "scope"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "schedule",
+      "roadmap"
+    ],
+    "entities": [
+      {
+        "kind": "date",
+        "value": "10/01",
+        "unit": "",
+        "raw": "10/01",
+        "start": 56,
+        "end": 61,
+        "source_message_id": "M017"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "schedule",
+    "metric": "date"
+  },
+  {
+    "message_id": "M018",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T10:24:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T018",
+    "text": "Dependency update: calibration handoff ready for controls review. Schedule owner needs one acceptance checklist rather than separate team sign-offs.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "dependency",
+      "milestone"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M019",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T10:32:00Z",
+    "author": "Sarah Chen",
+    "author_role": "ME",
+    "thread_id": "T019",
+    "text": "Risk: Integration of chassis service panel needs a fit check. Harness access is obstructed; mechanical owner must validate the assembly sequence.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "integration"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M020",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T10:40:00Z",
+    "author": "David",
+    "author_role": "ME",
+    "thread_id": "T020",
+    "text": "Tolerance update: chassis supplier drawing inspection ready. DFM review confirmed the production fixture reference; testing team will audit the first lot.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "tolerance",
+      "supplier",
+      "quality"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "chassis",
+    "metric": "tolerance"
+  },
+  {
+    "message_id": "M021",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T10:48:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T021",
+    "text": "Design decision: connector selection favors keyed power board plugs. Architecture review approved a replaceable harness interface with service access.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "design_decision",
+      "battery",
+      "firmware_if"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "power_board"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M022",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T10:56:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T022",
+    "text": "Design decision: motor enclosure CAD review completed. Mechanical architecture keeps the split housing for bearing inspection.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "design_decision",
+      "motor",
+      "quality"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M023",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T11:04:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T023",
+    "text": "Scope decision: requirements for customer docking recovery approved. Roadmap keeps operator confirmation while product measures intervention frequency.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "scope",
+      "design_decision"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M024",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T11:12:00Z",
+    "author": "Mei",
+    "author_role": "ME",
+    "thread_id": "T024",
+    "text": "Testing update: motor mount calibration rig ready. Integration checks completed before vibration acquisition; fixture photos uploaded for review.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "testing",
+      "motor",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "motor_mount"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "motor_mount",
+    "metric": "vibration"
+  },
+  {
+    "message_id": "M025",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T11:20:00Z",
+    "author": "Sarah Chen",
+    "author_role": "ME",
+    "thread_id": "T025",
+    "text": "Integration update: chassis manufacturing fixture ready. Quality inspection yield is 92%; production fit check uses the released locating pins.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "integration",
+      "quality"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [
+      {
+        "kind": "percentage",
+        "value": "92",
+        "unit": "%",
+        "raw": "92%",
+        "start": 85,
+        "end": 88,
+        "source_message_id": "M025"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M026",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T11:28:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T026",
+    "text": "Supplier update: chassis production contract confirmed. Quality inspection plan completed; BOM purchasing can release the fixture order.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "supplier",
+      "quality"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M027",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T11:36:00Z",
+    "author": "Mei",
+    "author_role": "ME",
+    "thread_id": "T027",
+    "text": "Testing update: reliability soak completed on chassis. Quality inspection found no fastener migration; integration checklist awaits owner approval.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "testing",
+      "quality",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M028",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T11:44:00Z",
+    "author": "Jun",
+    "author_role": "EE",
+    "thread_id": "T028",
+    "text": "Firmware update: interface error code E204 reproduced with motor driver v2.1. Battery power sequencing trace attached; patch testing starts after review.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "firmware_if",
+      "motor",
+      "battery"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "motor_driver",
+      "battery_pack"
+    ],
+    "entities": [
+      {
+        "kind": "error",
+        "value": "E204",
+        "unit": "",
+        "raw": "E204",
+        "start": 38,
+        "end": 42,
+        "source_message_id": "M028"
+      },
+      {
+        "kind": "version",
+        "value": "V2.1",
+        "unit": "",
+        "raw": "v2.1",
+        "start": 72,
+        "end": 76,
+        "source_message_id": "M028"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M029",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T11:52:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T029",
+    "text": "Battery update: supplier pack inspection completed. Quality yield is 98%; production voltage audit retained the 24V harness acceptance limit.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "battery",
+      "supplier",
+      "quality"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "battery_pack",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "percentage",
+        "value": "98",
+        "unit": "%",
+        "raw": "98%",
+        "start": 69,
+        "end": 72,
+        "source_message_id": "M029"
+      },
+      {
+        "kind": "voltage",
+        "value": "24",
+        "unit": "V",
+        "raw": "24V",
+        "start": 112,
+        "end": 115,
+        "source_message_id": "M029"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M030",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T12:00:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T030",
+    "text": "Lead time update: supplier connector CN-3100 shipment confirmed Friday. Quality receipt inspection remains required before BOM release.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "lead_time",
+      "supplier",
+      "quality"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "CN-3100",
+        "unit": "",
+        "raw": "CN-3100",
+        "start": 37,
+        "end": 44,
+        "source_message_id": "M030"
+      },
+      {
+        "kind": "date",
+        "value": "FRIDAY",
+        "unit": "",
+        "raw": "Friday",
+        "start": 64,
+        "end": 70,
+        "source_message_id": "M030"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M031",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T12:08:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T031",
+    "text": "Milestone update: manufacturing quality gate ready for schedule review. Supplier audit confirmed the next release checklist owner.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "milestone",
+      "quality",
+      "supplier"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "bom",
+      "vendor_contracts",
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "schedule",
+    "metric": "date"
+  },
+  {
+    "message_id": "M032",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T12:16:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T032",
+    "text": "Milestone decision: customer quality acceptance review approved for the production pilot. Scope review keeps dock recovery in the launch checklist.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "milestone",
+      "scope",
+      "quality"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "schedule",
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M033",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T12:24:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T033",
+    "text": "Supplier decision: vendor contract for harness HV-2400 approved. Procurement retains a second source; lead time confirmation due Oct 29.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "supplier",
+      "lead_time"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "part",
+        "value": "HV-2400",
+        "unit": "",
+        "raw": "HV-2400",
+        "start": 47,
+        "end": 54,
+        "source_message_id": "M033"
+      },
+      {
+        "kind": "date",
+        "value": "OCT 29",
+        "unit": "",
+        "raw": "Oct 29",
+        "start": 129,
+        "end": 135,
+        "source_message_id": "M033"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M034",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-25T12:34:00Z",
+    "author": "David",
+    "author_role": "ME",
+    "thread_id": "T034",
+    "text": "Tolerance review: CAD stack-up for chassis service hatch ready. Design decision pending manufacturing feedback, not a build blocker.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "tolerance",
+      "design_decision"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "chassis",
+    "metric": "tolerance"
+  },
+  {
+    "message_id": "M035",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T12:40:00Z",
+    "author": "Mei",
+    "author_role": "ME",
+    "thread_id": "T035",
+    "text": "Quality update: inspection repeatability completed on bench D. Testing log records 96% agreement across independent gauge operators.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "quality",
+      "testing"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [],
+    "entities": [
+      {
+        "kind": "percentage",
+        "value": "96",
+        "unit": "%",
+        "raw": "96%",
+        "start": 83,
+        "end": 86,
+        "source_message_id": "M035"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M036",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T12:48:00Z",
+    "author": "Jun",
+    "author_role": "EE",
+    "thread_id": "T036",
+    "text": "Thermal update: cooling fan characterization completed on bench D. Testing result recorded 39 C at 3.5A; battery team will assess airflow margin.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "thermal",
+      "testing",
+      "battery"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "battery_pack"
+    ],
+    "entities": [
+      {
+        "kind": "temperature",
+        "value": "39",
+        "unit": "C",
+        "raw": "39 C",
+        "start": 91,
+        "end": 95,
+        "source_message_id": "M036"
+      },
+      {
+        "kind": "current",
+        "value": "3.5",
+        "unit": "A",
+        "raw": "3.5A",
+        "start": 99,
+        "end": 103,
+        "source_message_id": "M036"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "battery_pack",
+    "metric": "thermal"
+  },
+  {
+    "message_id": "M037",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T12:56:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T037",
+    "text": "Dependency decision: reliability handoff owner approved. Milestone schedule review will accept the test report only after quality signs the traceability sheet.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "dependency",
+      "testing",
+      "milestone"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "schedule",
+    "metric": "date"
+  },
+  {
+    "message_id": "M038",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T13:04:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T038",
+    "text": "Scope update: customer acceptance notes ready. Testing review separates usability complaints from mechanical reliability evidence.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "scope",
+      "testing"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M039",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T13:12:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T039",
+    "text": "Motor update: replacement bearing assembly ready for integration. Testing instructions specify bench D, unloaded, at 2000 RPM.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "motor",
+      "integration",
+      "testing"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [],
+    "entities": [
+      {
+        "kind": "speed",
+        "value": "2000",
+        "unit": "RPM",
+        "raw": "2000 RPM",
+        "start": 117,
+        "end": 125,
+        "source_message_id": "M039"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M040",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T13:20:00Z",
+    "author": "David",
+    "author_role": "ME",
+    "thread_id": "T040",
+    "text": "Vibration update: sensor calibration completed on bench D at 2000 RPM. Testing log measured 0.4 mm/s on the reference shaker, not on the motor mount.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "vibration",
+      "testing",
+      "motor"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "motor_mount"
+    ],
+    "entities": [
+      {
+        "kind": "speed",
+        "value": "2000",
+        "unit": "RPM",
+        "raw": "2000 RPM",
+        "start": 61,
+        "end": 69,
+        "source_message_id": "M040"
+      },
+      {
+        "kind": "vibration",
+        "value": "0.4",
+        "unit": "mm/s",
+        "raw": "0.4 mm/s",
+        "start": 92,
+        "end": 100,
+        "source_message_id": "M040"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "motor_mount",
+    "metric": "vibration"
+  },
+  {
+    "message_id": "M041",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-25T12:41:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T041",
+    "text": "Quality update: supplier packaging inspection completed. Procurement found 3% cosmetic rejects; BOM remains usable after sorting.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "quality",
+      "supplier"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [
+      {
+        "kind": "percentage",
+        "value": "3",
+        "unit": "%",
+        "raw": "3%",
+        "start": 75,
+        "end": 77,
+        "source_message_id": "M041"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M042",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T13:36:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T042",
+    "text": "Milestone review: architecture requirements checklist ready. Schedule estimates remain provisional until component selection finishes.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "milestone",
+      "design_decision"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "schedule",
+    "metric": "date"
+  },
+  {
+    "message_id": "M043",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T13:44:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T043",
+    "text": "Battery design decision: power board fuse access approved. Thermal requirements remain open until the pack enclosure geometry is frozen.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "battery",
+      "design_decision",
+      "thermal"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "battery_pack",
+      "power_board"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "battery_pack",
+    "metric": "thermal"
+  },
+  {
+    "message_id": "M044",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T13:52:00Z",
+    "author": "Sarah Chen",
+    "author_role": "ME",
+    "thread_id": "T044",
+    "text": "Integration update: chassis cable-routing jig ready. Testing crew confirmed service-panel removal does not disturb harness retention.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "integration",
+      "testing"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M045",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T14:00:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T045",
+    "text": "Scope update: customer demo script ready. Milestone review keeps docking and manual recovery; no production promise in the prototype presentation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "scope",
+      "milestone"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "schedule",
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M046",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T14:08:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T046",
+    "text": "Delivery confirmed: replacement motors arrive Friday. Receiving will record serials before mechanical integration starts.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "lead_time",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [],
+    "entities": [
+      {
+        "kind": "date",
+        "value": "FRIDAY",
+        "unit": "",
+        "raw": "Friday",
+        "start": 46,
+        "end": 52,
+        "source_message_id": "M046"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "replacement_motors",
+    "metric": "delivery"
+  },
+  {
+    "message_id": "M047",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T14:16:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T047",
+    "text": "Forwarded: Delivery confirmed: replacement motors arrive Friday. Receiving will record serials before mechanical integration starts.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "lead_time",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [],
+    "entities": [
+      {
+        "kind": "date",
+        "value": "FRIDAY",
+        "unit": "",
+        "raw": "Friday",
+        "start": 57,
+        "end": 63,
+        "source_message_id": "M047"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "replacement_motors",
+    "metric": "delivery"
+  },
+  {
+    "message_id": "M048",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T14:24:00Z",
+    "author": "Jun",
+    "author_role": "EE",
+    "thread_id": "T048",
+    "text": "Firmware interface update: boot-sequence trace completed on power board. Testing needs one regression run with v2.2 before closing E204.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "firmware_if",
+      "battery",
+      "testing"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "power_board"
+    ],
+    "entities": [
+      {
+        "kind": "version",
+        "value": "V2.2",
+        "unit": "",
+        "raw": "v2.2",
+        "start": 111,
+        "end": 115,
+        "source_message_id": "M048"
+      },
+      {
+        "kind": "error",
+        "value": "E204",
+        "unit": "",
+        "raw": "E204",
+        "start": 131,
+        "end": 135,
+        "source_message_id": "M048"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M049",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T14:32:00Z",
+    "author": "Mei",
+    "author_role": "ME",
+    "thread_id": "T044",
+    "text": "Testing update: integration harness continuity checks completed. Chassis fit check cleared the prototype build checklist.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": "M044",
+    "reactions": 4,
+    "topics": [
+      "testing",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M050",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-27T14:40:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T050",
+    "text": "Procurement update: vendor quality certificate ready for enclosure fasteners. BOM contract review confirmed the incoming-inspection owner.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "supplier",
+      "quality"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M051",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T14:48:00Z",
+    "author": "David",
+    "author_role": "ME",
+    "thread_id": "T051",
+    "text": "Tolerance decision: supplier fixture datum approved. Quality inspection uses the chassis reference pin before production release.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "tolerance",
+      "supplier",
+      "quality"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "chassis",
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "chassis",
+    "metric": "tolerance"
+  },
+  {
+    "message_id": "M052",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T14:56:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T052",
+    "text": "Dependency update: manufacturing handoff checklist completed. Quality and supplier owners must acknowledge their remaining release tasks.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "dependency",
+      "quality",
+      "supplier"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "bom",
+      "vendor_contracts",
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M053",
+    "channel": "atlas-leadership",
+    "timestamp": "2026-09-27T15:04:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T053",
+    "text": "Scope risk: customer contract exposes a late-delivery penalty. Roadmap owner needs a private commercial review before changing the pilot commitment.",
+    "project": "Atlas",
+    "phase": "Production",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "scope",
+      "lead_time"
+    ],
+    "message_type": "risk",
+    "severity": 0.8,
+    "affects": [
+      "vendor_contracts",
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M054",
+    "channel": "atlas-electrical",
+    "timestamp": "2026-09-27T15:12:00Z",
+    "author": "Priya Nair",
+    "author_role": "EE",
+    "thread_id": "T054",
+    "text": "Firmware interface decision: error code E204 recovery approved in v2.2. Testing regression report retains a manual reset case.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "firmware_if",
+      "testing"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [],
+    "entities": [
+      {
+        "kind": "error",
+        "value": "E204",
+        "unit": "",
+        "raw": "E204",
+        "start": 40,
+        "end": 44,
+        "source_message_id": "M054"
+      },
+      {
+        "kind": "version",
+        "value": "V2.2",
+        "unit": "",
+        "raw": "v2.2",
+        "start": 66,
+        "end": 70,
+        "source_message_id": "M054"
+      }
+    ],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M055",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-27T15:20:00Z",
+    "author": "Jun",
+    "author_role": "EE",
+    "thread_id": "T055",
+    "text": "Thermal testing update: cooling duct instrument harness ready. Battery pack soak can start after temperature probe calibration.",
+    "project": "Atlas",
+    "phase": "Validation",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "thermal",
+      "testing",
+      "battery"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "battery_pack"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "battery_pack",
+    "metric": "thermal"
+  },
+  {
+    "message_id": "M056",
+    "channel": "atlas-supply-chain",
+    "timestamp": "2026-09-25T12:56:00Z",
+    "author": "Raj Patel",
+    "author_role": "SC",
+    "thread_id": "T056",
+    "text": "Supplier component selection decision: vendor requested a BOM forecast. Design decision remains open while procurement compares connector families.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 1,
+    "topics": [
+      "supplier",
+      "design_decision"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "bom",
+      "vendor_contracts"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M057",
+    "channel": "atlas-mechanical",
+    "timestamp": "2026-09-27T15:36:00Z",
+    "author": "Sarah Chen",
+    "author_role": "ME",
+    "thread_id": "T057",
+    "text": "Design decision: chassis architecture review completed. CAD packaging confirms access to battery service points.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 2,
+    "topics": [
+      "design_decision",
+      "battery"
+    ],
+    "message_type": "decision",
+    "severity": 0.6,
+    "affects": [
+      "chassis",
+      "battery_pack"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M058",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-21T10:00:00Z",
+    "author": "Marcus Lee",
+    "author_role": "EM",
+    "thread_id": "T058",
+    "text": "Dependency update: build-room tool checkout completed. Integration team owns the fixture return checklist.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "dependency",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "schedule"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M059",
+    "channel": "atlas-testing",
+    "timestamp": "2026-09-21T11:00:00Z",
+    "author": "David",
+    "author_role": "ME",
+    "thread_id": "T059",
+    "text": "Testing notes: integration rig operators confirmed the bench D procedure. Chassis assembly must be photographed before the overnight run.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 4,
+    "topics": [
+      "testing",
+      "integration"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "chassis"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M060",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-21T12:00:00Z",
+    "author": "Lena Torres",
+    "author_role": "PM",
+    "thread_id": "T060",
+    "text": "Scope notes: customer interview transcript ready. Requirements review should distinguish warehouse aisle width from docking workflow.",
+    "project": "Atlas",
+    "phase": "Design",
+    "parent_id": null,
+    "reactions": 0,
+    "topics": [
+      "scope",
+      "design_decision"
+    ],
+    "message_type": "update",
+    "severity": 0.4,
+    "affects": [
+      "roadmap"
+    ],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M061",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T061",
+    "text": "Lunch poll: noodles or sandwiches?",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M062",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T062",
+    "text": "Coffee is ready in the kitchen.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M063",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T063",
+    "text": "Thanks for helping with the demo cleanup!",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M064",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T064",
+    "text": "Happy birthday Jun!",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M065",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T065",
+    "text": "Anyone for a walk after lunch?",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M066",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T066",
+    "text": "Great job on the team presentation.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M067",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T067",
+    "text": "Emoji reaction thread for the new stickers.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M068",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T068",
+    "text": "Office printer has fresh paper.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M069",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T069",
+    "text": "Weekend cycling photos in the social thread.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M070",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T070",
+    "text": "Pizza order closes at noon.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M071",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T071",
+    "text": "Thanks Sarah for finding my notebook.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  },
+  {
+    "message_id": "M072",
+    "channel": "atlas-general",
+    "timestamp": "2026-09-27T16:00:00Z",
+    "author": "Alex",
+    "author_role": "ME",
+    "thread_id": "T072",
+    "text": "Coffee beans arrived; please label your mugs.",
+    "project": "Atlas",
+    "phase": "Prototype",
+    "parent_id": null,
+    "reactions": 3,
+    "topics": [
+      "design_decision"
+    ],
+    "message_type": "chatter",
+    "severity": 0.0,
+    "affects": [],
+    "entities": [],
+    "reply_count": 0,
+    "entity": "",
+    "metric": ""
+  }
+]

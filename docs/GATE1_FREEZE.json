@@ -1,0 +1,25 @@
+{
+  "status": "Gate 1 PASS; Core Engine frozen",
+  "approved_at": "2026-09-29",
+  "files": {
+    "config/demo.yaml": "9db8c052fd5e5c5edd87fb43cd9cd7ae602215a68837f497ccae9bbfa78ce8df",
+    "config/topics.yaml": "fdae1d3bf309a882b2e3bb61d423ad08fc388b1bd43d53504ceeb8218387f430",
+    "config/weights.yaml": "318c26a1e82e3bae81bb075153cab1d89c9c7e75c3fc92357f8bc3b19a1a3578",
+    "data/index_manifest.json": "d7fae81ce293ee2b3768fff125d9b5c27c36efb16a599a14eadb5160768957af",
+    "data/project_phases.json": "c8926e117c3a68ba40ae3ca7be357e24ab767e61a74aa86202d8b036c33d82b7",
+    "data/slack_messages.json": "973c1dafced5eef7cd3ba3f0c18566f8434edfa42ed8b5a1a8b01aa2a51c76a5",
+    "data/users.json": "5099835b222a9b2bb52f71e14cb26988dd1c421e09ff6efd5106e41006dd0ab6",
+    "src/__init__.py": "1ba86fa7dfb537cadcf71464b347bb67f9a81af0252d006e9cb2c4930ce6dfed",
+    "src/config.py": "2a095bc788cb62f8a068ae6a327e08d5fcba61dac925605087d136751848738d",
+    "src/conflicts.py": "310def7bf64d9692ea19ccd6a8c01a290201ff971c4e68a2c7250c585a853106",
+    "src/enrichment.py": "bf2ea432f0377dab18b210594708b2438118287ad5dfb97dc275144cc30b68e3",
+    "src/identifiers.py": "9ac5c34e74e1f149b361f2d4e005bc8069623e1f4bcd2510a88430ee86107778",
+    "src/ingestion.py": "585fe2b49593ea7b68da1084c2e88726c544d86cb1fd2aa6862b2c1172a8a814",
+    "src/models.py": "d9f12bffa14fb6e00cbada594756b3f95ebf5b88c085120633808d9751ebbe18",
+    "src/personalization.py": "d2178e52ab90f0c9fdd2166e63d19522799cfff08a4d2b2666abdc2e9bf6f302",
+    "src/pipeline.py": "62d544dde17836423e3aa68bd962ff92f339b8ef0112db157c02a4e36fd4940a",
+    "src/ranking.py": "935ff4dbf1d2353c25c6c2229ce9c111a1bed1f2cc5cac10fee4c89bc934c1e0",
+    "src/retrieval.py": "b540a047d362c4f3542c856e0d76507e1052c9ec18ed06757c68903664a03856"
+  },
+  "note": "Baseline label approval is metadata outside the frozen runtime; Gate 2 may add new files but must not alter these without a documented real defect."
+}

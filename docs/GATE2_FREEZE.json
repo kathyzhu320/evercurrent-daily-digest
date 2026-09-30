@@ -1,0 +1,17 @@
+{
+  "gate_1": "PASS",
+  "gate_2": "PASS (human accepted)",
+  "core_engine": "frozen",
+  "demo_behavior": "frozen after Gate 3 display/model configuration polish",
+  "recorded_on": "2026-09-29",
+  "sha256": {
+    "app.py": "dcf090a6b36fa441ef4ed413a7be65d0755e38ad996b1b99a02a2f09ef134dbd",
+    "src/demo.py": "52e022dc5de071482ffadb76f41ac354cdbff8341798d00d6875fcb8ca1aeb19",
+    "src/display.py": "e21363d7f5e53c5fcd77a4ac4b11ddfc7e29c4d7080e4a23a141862490dc70c4",
+    "src/presentation.py": "2552d86c079ef12f38d70c4e82ad13203b63b84bee096839f0f70798a0e731b4",
+    "src/summarizer.py": "383aa65fe9f1dfea6d19132976c88816ed9f4bbbf62e4a1c5872a5599aac3a79",
+    "src/faithfulness.py": "d2c5d38e5bc8e783ae0dbdbe52f466da435a8c82ffd8da486383b34d187ef867",
+    ".env.example": "5af2961d97e07b1fa8b9e7241c4dd238e11ca45cec94afbe29afb261a5ee41a9",
+    "requirements.txt": "e59fb1ee464b6ba65577d81d247dbef8cabff86f35db4ed5b8ef15bc975560c4"
+  }
+}

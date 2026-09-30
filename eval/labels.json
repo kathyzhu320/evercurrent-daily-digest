@@ -1,0 +1,726 @@
+{
+  "review_status": "approved",
+  "ground_truth_approved": true,
+  "baseline_scenarios": [
+    {
+      "scenario_id": "sarah-design",
+      "persona_id": "sarah",
+      "phase": "Design",
+      "priorities": [
+        "vibration",
+        "integration",
+        "testing"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M019",
+        "S-M021",
+        "S-M022",
+        "S-M034",
+        "S-M043",
+        "S-M057"
+      ],
+      "business_assumption": "Design decisions, CAD/tolerance and service-access choices are directly mechanical; open mount and access risks still matter before design freeze.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "sarah-prototype",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "priorities": [
+        "vibration",
+        "integration",
+        "testing"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M011",
+        "S-M019",
+        "S-M024",
+        "S-M039",
+        "S-M040",
+        "S-M044",
+        "S-M046",
+        "S-M049"
+      ],
+      "business_assumption": "Build fit, motor-mount vibration, calibration and part arrival govern prototype assembly and testing.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "sarah-validation",
+      "persona_id": "sarah",
+      "phase": "Validation",
+      "priorities": [
+        "vibration",
+        "integration",
+        "testing"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M011",
+        "S-M019",
+        "S-M024",
+        "S-M027",
+        "S-M035",
+        "S-M036",
+        "S-M040",
+        "S-M049",
+        "S-M055"
+      ],
+      "business_assumption": "Unresolved mechanical risks carry forward; soak, repeatability, calibration and cooling instrumentation support validation evidence.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "sarah-production",
+      "persona_id": "sarah",
+      "phase": "Production",
+      "priorities": [
+        "vibration",
+        "integration",
+        "testing"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M019",
+        "S-M020",
+        "S-M025",
+        "S-M026",
+        "S-M027",
+        "S-M051"
+      ],
+      "business_assumption": "Open mechanical risks remain release concerns, while chassis drawings, fixture datum, incoming quality and build yield dominate production.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "priya-design",
+      "persona_id": "priya",
+      "phase": "Design",
+      "priorities": [
+        "thermal",
+        "battery",
+        "firmware_if"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M008",
+        "S-M009",
+        "S-M012",
+        "S-M021",
+        "S-M043",
+        "S-M057"
+      ],
+      "business_assumption": "Driver sourcing affects component choice; pack voltage/thermal uncertainty, keyed connectors and fuse/service access inform electrical architecture.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "priya-prototype",
+      "persona_id": "priya",
+      "phase": "Prototype",
+      "priorities": [
+        "thermal",
+        "battery",
+        "firmware_if"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M008",
+        "S-M009",
+        "S-M011",
+        "S-M012",
+        "S-M021",
+        "S-M028",
+        "S-M048"
+      ],
+      "business_assumption": "Driver availability, pack heat/voltage, duct fit and E204 boot behavior affect electrical build and integration.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "priya-validation",
+      "persona_id": "priya",
+      "phase": "Validation",
+      "priorities": [
+        "thermal",
+        "battery",
+        "firmware_if"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M009",
+        "S-M012",
+        "S-M028",
+        "S-M036",
+        "S-M048",
+        "S-M054",
+        "S-M055"
+      ],
+      "business_assumption": "Pack thermal/voltage differences and E204 require comparable measurements, recovery testing and calibrated validation traces.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "priya-production",
+      "persona_id": "priya",
+      "phase": "Production",
+      "priorities": [
+        "thermal",
+        "battery",
+        "firmware_if"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M009",
+        "S-M012",
+        "S-M029",
+        "S-M030",
+        "S-M036",
+        "S-M054"
+      ],
+      "business_assumption": "Unresolved driver/pack safety issues persist; pack yield, connector receipt and verified firmware recovery matter at release.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "raj-design",
+      "persona_id": "raj",
+      "phase": "Design",
+      "priorities": [
+        "supplier",
+        "lead_time"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M021",
+        "S-M033",
+        "S-M043",
+        "S-M056"
+      ],
+      "business_assumption": "Part availability, connector/fuse choices, vendor contract and second-source planning shape the feasible BOM.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "raj-prototype",
+      "persona_id": "raj",
+      "phase": "Prototype",
+      "priorities": [
+        "supplier",
+        "lead_time"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M008",
+        "S-M030",
+        "S-M033",
+        "S-M046",
+        "S-M056"
+      ],
+      "business_assumption": "Driver lead time, alternate vendor quotation, harness sourcing and replacement-motor delivery affect prototype build readiness.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "raj-validation",
+      "persona_id": "raj",
+      "phase": "Validation",
+      "priorities": [
+        "supplier",
+        "lead_time"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M029",
+        "S-M030",
+        "S-M033",
+        "S-M041",
+        "S-M050",
+        "S-M052"
+      ],
+      "business_assumption": "Continuing driver risk plus incoming quality, inspection documents and supplier handoff affect validation-to-release supply.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "raj-production",
+      "persona_id": "raj",
+      "phase": "Production",
+      "priorities": [
+        "supplier",
+        "lead_time"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M020",
+        "S-M026",
+        "S-M029",
+        "S-M030",
+        "S-M033",
+        "S-M041",
+        "S-M050",
+        "S-M051",
+        "S-M052"
+      ],
+      "business_assumption": "Supplier commitments, lead times, drawing/fixture readiness, incoming inspection and BOM usability dominate production.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": [
+        "atlas-leadership"
+      ]
+    },
+    {
+      "scenario_id": "marcus-design",
+      "persona_id": "marcus",
+      "phase": "Design",
+      "priorities": [
+        "milestone",
+        "dependency"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M014",
+        "S-M016",
+        "S-M021",
+        "S-M023",
+        "S-M034",
+        "S-M042",
+        "S-M056"
+      ],
+      "business_assumption": "Early component and scope choices, architecture checklist, design feedback and a known milestone risk need cross-team ownership.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "marcus-prototype",
+      "persona_id": "marcus",
+      "phase": "Prototype",
+      "priorities": [
+        "milestone",
+        "dependency"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M005",
+        "S-M008",
+        "S-M014",
+        "S-M017",
+        "S-M018",
+        "S-M019",
+        "S-M024",
+        "S-M044",
+        "S-M045"
+      ],
+      "business_assumption": "Vibration/fit and supplier risks threaten the build; schedule, calibration handoff and demo commitments need accountable owners.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "marcus-validation",
+      "persona_id": "marcus",
+      "phase": "Validation",
+      "priorities": [
+        "milestone",
+        "dependency"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M005",
+        "S-M009",
+        "S-M012",
+        "S-M014",
+        "S-M027",
+        "S-M035",
+        "S-M036",
+        "S-M037",
+        "S-M038",
+        "S-M054",
+        "S-M055"
+      ],
+      "business_assumption": "Open safety/supply risks persist; reliability sign-off, measurement quality, recovery and acceptance handoffs govern validation.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "marcus-production",
+      "persona_id": "marcus",
+      "phase": "Production",
+      "priorities": [
+        "milestone",
+        "dependency"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M014",
+        "S-M020",
+        "S-M026",
+        "S-M029",
+        "S-M030",
+        "S-M031",
+        "S-M032",
+        "S-M041",
+        "S-M050",
+        "S-M051",
+        "S-M052",
+        "S-M053"
+      ],
+      "business_assumption": "Current schedule/supplier risks persist; manufacturing quality gate, vendor receipts, owners and private commercial exposure govern release.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "lena-design",
+      "persona_id": "lena",
+      "phase": "Design",
+      "priorities": [
+        "milestone",
+        "scope"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M014",
+        "S-M016",
+        "S-M021",
+        "S-M023",
+        "S-M042",
+        "S-M057"
+      ],
+      "business_assumption": "Pilot scope, customer recovery requirements, serviceability and long-lead/milestone risks inform product trade-offs.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "lena-prototype",
+      "persona_id": "lena",
+      "phase": "Prototype",
+      "priorities": [
+        "milestone",
+        "scope"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M014",
+        "S-M016",
+        "S-M017",
+        "S-M019",
+        "S-M023",
+        "S-M045"
+      ],
+      "business_assumption": "Build obstruction and supplier delay affect demo commitments; public checkpoint, pilot scope and docking script need product alignment.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "lena-validation",
+      "persona_id": "lena",
+      "phase": "Validation",
+      "priorities": [
+        "milestone",
+        "scope"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M009",
+        "S-M012",
+        "S-M014",
+        "S-M016",
+        "S-M023",
+        "S-M027",
+        "S-M037",
+        "S-M038",
+        "S-M054"
+      ],
+      "business_assumption": "Safety/voltage uncertainty and reliability sign-off affect customer acceptance; scope and error-recovery evidence need review.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    },
+    {
+      "scenario_id": "lena-production",
+      "persona_id": "lena",
+      "phase": "Production",
+      "priorities": [
+        "milestone",
+        "scope"
+      ],
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M014",
+        "S-M016",
+        "S-M029",
+        "S-M030",
+        "S-M031",
+        "S-M032",
+        "S-M038",
+        "S-M053"
+      ],
+      "business_assumption": "Supply and schedule commitments, customer quality acceptance, pilot scope and the private late-delivery penalty affect launch decisions.",
+      "phase_review_note": "Human-reviewed phase-aware relevance judgment; cross-phase unresolved risks are retained when the role has a decision or release stake.",
+      "forbidden_channels": []
+    }
+  ],
+  "stress_scenarios": [
+    {
+      "scenario_id": "sarah-vibration",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "priorities": [
+        "vibration"
+      ],
+      "review_question": "Does motor-mount vibration outrank unrelated thermal content for a mechanical owner?",
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M011",
+        "S-M019",
+        "S-M024",
+        "S-M039",
+        "S-M040",
+        "S-M044",
+        "S-M046",
+        "S-M049"
+      ],
+      "business_assumption": "The narrowed vibration priority changes ranking emphasis, not whether unresolved mechanical fit, calibration, and assembly facts are useful to the mechanical owner.",
+      "label_basis": "Existing synthetic source facts, approved baseline persona/phase judgments, ownership, and D1–D9; no runtime ranking results used."
+    },
+    {
+      "scenario_id": "sarah-thermal",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "priorities": [
+        "thermal"
+      ],
+      "review_question": "Are unresolved pack thermal differences useful to a mechanical cooling owner despite no pack ownership?",
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M009",
+        "S-M011",
+        "S-M019",
+        "S-M024",
+        "S-M039",
+        "S-M040",
+        "S-M044",
+        "S-M046",
+        "S-M049"
+      ],
+      "business_assumption": "Battery thermal evidence affects the cooling fixture and chassis duct that ME must accommodate. Other mechanical build and safety facts remain relevant even when thermal is the explicit priority.",
+      "label_basis": "Existing synthetic source facts, approved baseline persona/phase judgments, ownership, and D1–D9; no runtime ranking results used."
+    },
+    {
+      "scenario_id": "raj-narrow-negative-feedback",
+      "persona_id": "raj",
+      "phase": "Prototype",
+      "priorities": [
+        "vibration"
+      ],
+      "feedback": {
+        "topics": [
+          "supplier",
+          "lead_time"
+        ],
+        "value": -1
+      },
+      "review_question": "Do protected supplier risks remain useful, even with narrow unrelated priorities and negative feedback?",
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M008",
+        "S-M030",
+        "S-M033",
+        "S-M046",
+        "S-M056"
+      ],
+      "business_assumption": "Driver-chip lead time, supply alternatives, contract and delivery facts still require SC attention. A narrow vibration priority and negative preference cannot erase an active sourcing risk.",
+      "label_basis": "Existing synthetic source facts, approved baseline persona/phase judgments, ownership, and D1–D9; no runtime ranking results used."
+    },
+    {
+      "scenario_id": "sarah-expired-priorities",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "priority_created_at": "2026-09-20T18:00:00Z",
+      "as_of": "2026-09-27T18:00:00Z",
+      "review_question": "Expired priorities should contribute zero; role, phase and safety still apply.",
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M001",
+        "S-M011",
+        "S-M019",
+        "S-M024",
+        "S-M039",
+        "S-M040",
+        "S-M044",
+        "S-M046",
+        "S-M049"
+      ],
+      "business_assumption": "Expiration changes the Priority score, not the underlying relevance of current mechanical risks, assembly readiness, and testing to ME.",
+      "label_basis": "Existing synthetic source facts, approved baseline persona/phase judgments, ownership, and D1–D9; no runtime ranking results used."
+    },
+    {
+      "scenario_id": "priya-feedback-decay",
+      "persona_id": "priya",
+      "phase": "Prototype",
+      "feedback_timestamp": "2026-09-20T18:00:00Z",
+      "as_of": "2026-09-27T18:00:00Z",
+      "review_question": "A single thermal relevant event should decay from 0.2 to 0.1 after seven days.",
+      "review_status": "approved",
+      "proposed_relevant_story_ids": [
+        "S-M005",
+        "S-M008",
+        "S-M009",
+        "S-M011",
+        "S-M012",
+        "S-M021",
+        "S-M028",
+        "S-M048"
+      ],
+      "business_assumption": "A decayed thermal feedback event changes the preference score, not the business relevance of pack, driver, and firmware-interface evidence to EE.",
+      "label_basis": "Existing synthetic source facts, approved baseline persona/phase judgments, ownership, and D1–D9; no runtime ranking results used."
+    }
+  ],
+  "proposed_relationships": [
+    {
+      "source_ids": [
+        "M005",
+        "M006"
+      ],
+      "label": "SUPERSEDED",
+      "reason": "Same driver/lead time, explicit source replacement: 12→20 weeks",
+      "review_status": "approved",
+      "runtime_label": "SUPERSEDED"
+    },
+    {
+      "source_ids": [
+        "M006",
+        "M007"
+      ],
+      "label": "DUPLICATE",
+      "reason": "Forwarded equivalent current lead-time fact",
+      "review_status": "approved",
+      "runtime_label": "DUPLICATE"
+    },
+    {
+      "source_ids": [
+        "M001",
+        "M002"
+      ],
+      "label": "CONFLICT",
+      "comparable": true,
+      "reason": "Same mount/bench/load/RPM; 4.2 vs 6.8 mm/s",
+      "review_status": "approved",
+      "runtime_label": "CONFLICT"
+    },
+    {
+      "source_ids": [
+        "M001",
+        "M003"
+      ],
+      "label": "UNRESOLVED_DIFFERENCE",
+      "comparable": false,
+      "reason": "Different RPM; unresolved difference, not scientifically contradictory; display as different or unverified conditions, not a scientifically contradictory result",
+      "review_status": "approved",
+      "runtime_label": "CONFLICT"
+    },
+    {
+      "source_ids": [
+        "M002",
+        "M004"
+      ],
+      "label": "DUPLICATE",
+      "reason": "Forwarded identical vibration fact",
+      "review_status": "approved",
+      "runtime_label": "DUPLICATE"
+    },
+    {
+      "source_ids": [
+        "M009",
+        "M010"
+      ],
+      "label": "UNRESOLVED_DIFFERENCE",
+      "comparable": false,
+      "reason": "Battery rev B/24V/61C vs rev C/48V/74C; display as different or unverified conditions, not a scientifically contradictory result",
+      "review_status": "approved",
+      "runtime_label": "CONFLICT"
+    },
+    {
+      "source_ids": [
+        "M012",
+        "M013"
+      ],
+      "label": "UNRESOLVED_DIFFERENCE",
+      "comparable": false,
+      "reason": "Same power board, divergent 24V/48V requirements; physical condition documentation incomplete; display as different or unverified conditions, not a scientifically contradictory result",
+      "review_status": "approved",
+      "runtime_label": "CONFLICT"
+    },
+    {
+      "source_ids": [
+        "M014",
+        "M015"
+      ],
+      "label": "SUPERSEDED",
+      "reason": "Explicit leadership schedule replacement: 10/15→10/29",
+      "review_status": "approved",
+      "runtime_label": "SUPERSEDED"
+    },
+    {
+      "source_ids": [
+        "M046",
+        "M047"
+      ],
+      "label": "DUPLICATE",
+      "reason": "Identical delivery confirmation",
+      "review_status": "approved",
+      "runtime_label": "DUPLICATE"
+    }
+  ],
+  "note": "All baseline, stress, and relationship labels are human-reviewed and approved. Runtime never reads labels. Non-comparable runtime CONFLICT pairs are evaluated as UNRESOLVED_DIFFERENCE.",
+  "baseline_review_status": "approved",
+  "baseline_ground_truth_approved": true,
+  "baseline_approved_at": "2026-09-29",
+  "baseline_approval_scope": "20 persona × phase baseline relevance sets and rationales; human-reviewed and approved",
+  "ground_truth_frozen": true,
+  "approved_at": "2026-09-29",
+  "approval_scope": "20 baseline persona × phase scenarios, five stress scenarios, and nine relationship pairs; human-reviewed and approved"
+}

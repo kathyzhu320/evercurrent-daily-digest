@@ -1,0 +1,193 @@
+weights:
+  role: 0.25
+  priority: 0.25
+  phase: 0.2
+  severity: 0.15
+  recency: 0.1
+  feedback: 0.05
+role_topic:
+  vibration:
+    ME: 1.0
+    EE: 0.4
+    SC: 0.1
+    EM: 0.6
+    PM: 0.3
+  motor:
+    ME: 0.8
+    EE: 0.8
+    SC: 0.4
+    EM: 0.5
+    PM: 0.3
+  integration:
+    ME: 1.0
+    EE: 0.6
+    SC: 0.1
+    EM: 0.6
+    PM: 0.3
+  tolerance:
+    ME: 1.0
+    EE: 0.2
+    SC: 0.5
+    EM: 0.3
+    PM: 0.1
+  testing:
+    ME: 0.8
+    EE: 0.8
+    SC: 0.2
+    EM: 0.7
+    PM: 0.5
+  thermal:
+    ME: 0.6
+    EE: 1.0
+    SC: 0.1
+    EM: 0.6
+    PM: 0.4
+  battery:
+    ME: 0.4
+    EE: 1.0
+    SC: 0.5
+    EM: 0.5
+    PM: 0.4
+  firmware_if:
+    ME: 0.2
+    EE: 1.0
+    SC: 0.0
+    EM: 0.4
+    PM: 0.2
+  supplier:
+    ME: 0.3
+    EE: 0.4
+    SC: 1.0
+    EM: 0.5
+    PM: 0.4
+  lead_time:
+    ME: 0.3
+    EE: 0.5
+    SC: 1.0
+    EM: 0.7
+    PM: 0.7
+  quality:
+    ME: 0.5
+    EE: 0.5
+    SC: 0.8
+    EM: 0.7
+    PM: 0.5
+  milestone:
+    ME: 0.4
+    EE: 0.4
+    SC: 0.5
+    EM: 1.0
+    PM: 1.0
+  dependency:
+    ME: 0.5
+    EE: 0.5
+    SC: 0.5
+    EM: 1.0
+    PM: 0.7
+  scope:
+    ME: 0.2
+    EE: 0.2
+    SC: 0.2
+    EM: 0.6
+    PM: 1.0
+  design_decision:
+    ME: 0.8
+    EE: 0.8
+    SC: 0.3
+    EM: 0.6
+    PM: 0.6
+phase_topic:
+  vibration:
+    Design: 0.3
+    Prototype: 0.9
+    Validation: 0.8
+    Production: 0.4
+  motor:
+    Design: 0.6
+    Prototype: 0.8
+    Validation: 0.7
+    Production: 0.5
+  integration:
+    Design: 0.5
+    Prototype: 1.0
+    Validation: 0.7
+    Production: 0.4
+  tolerance:
+    Design: 0.8
+    Prototype: 0.6
+    Validation: 0.5
+    Production: 0.9
+  testing:
+    Design: 0.2
+    Prototype: 1.0
+    Validation: 1.0
+    Production: 0.4
+  thermal:
+    Design: 0.5
+    Prototype: 0.8
+    Validation: 1.0
+    Production: 0.5
+  battery:
+    Design: 0.5
+    Prototype: 0.8
+    Validation: 0.9
+    Production: 0.5
+  firmware_if:
+    Design: 0.6
+    Prototype: 0.8
+    Validation: 0.8
+    Production: 0.3
+  supplier:
+    Design: 0.3
+    Prototype: 0.5
+    Validation: 0.5
+    Production: 1.0
+  lead_time:
+    Design: 0.3
+    Prototype: 0.5
+    Validation: 0.6
+    Production: 1.0
+  quality:
+    Design: 0.1
+    Prototype: 0.4
+    Validation: 0.8
+    Production: 1.0
+  milestone:
+    Design: 0.4
+    Prototype: 0.7
+    Validation: 0.8
+    Production: 0.9
+  dependency:
+    Design: 0.5
+    Prototype: 0.8
+    Validation: 0.7
+    Production: 0.8
+  scope:
+    Design: 0.8
+    Prototype: 0.5
+    Validation: 0.3
+    Production: 0.2
+  design_decision:
+    Design: 1.0
+    Prototype: 0.6
+    Validation: 0.3
+    Production: 0.2
+severity:
+  blocker: 1.0
+  risk: 0.8
+  decision: 0.6
+  update: 0.4
+  fyi: 0.2
+  chatter: 0.0
+recency_half_life_hours: 48
+feedback:
+  step: 0.2
+  half_life_days: 7
+priority_default_ttl_days: 7
+owner_override_role_score: 0.9
+severity_floor:
+  min_role_relevance: 0.3
+  max_items: 2
+top_k: 5
+conflict:
+  similarity_threshold: 0.8

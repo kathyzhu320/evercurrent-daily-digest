@@ -1,0 +1,9 @@
+flowchart TD
+    A[Slack / Synthetic Messages] --> B[ACL + Metadata Filtering]
+    B --> C[Hybrid Retrieval<br/>TF-IDF + keyword + identifiers]
+    C --> D[Story Grouping & Relationship Detection]
+    D --> E[Role / Priority / Phase / Severity / Recency / Feedback Ranking]
+    E --> F[Severity Floor]
+    F --> G[Top-K Stories, K ≤ 5]
+    G --> H[Grounded Summary + Identifier-Level Faithfulness Check]
+    H --> I[Digest / Compare / Why Ranked]

@@ -1,0 +1,10 @@
+.DS_Store
+.Rhistory
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+data/summaries_cache.json

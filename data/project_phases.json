@@ -1,0 +1,13 @@
+{
+  "project": "Atlas",
+  "default_phase": "Prototype",
+  "phases": [
+    "Design",
+    "Prototype",
+    "Validation",
+    "Production"
+  ],
+  "milestones": {
+    "validation": "2026-10-29"
+  }
+}

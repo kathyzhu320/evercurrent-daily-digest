@@ -1,0 +1,873 @@
+{
+  "status": "formal",
+  "label_fingerprint": "84a9299a3fc3174a9d4b508f42cc6d70c7b6ef4ec321df4a8e945a364cd77d2c",
+  "as_of": "2026-09-27T18:00:00Z",
+  "baseline_precision_at_5": [
+    {
+      "scenario_id": "sarah-design",
+      "persona_id": "sarah",
+      "phase": "Design",
+      "top5": [
+        "S-M001",
+        "S-M019",
+        "S-M040",
+        "S-M024",
+        "S-M049"
+      ],
+      "relevant_in_top5": [
+        "S-M001",
+        "S-M019"
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "scenario_id": "sarah-prototype",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "top5": [
+        "S-M019",
+        "S-M001",
+        "S-M049",
+        "S-M044",
+        "S-M040"
+      ],
+      "relevant_in_top5": [
+        "S-M019",
+        "S-M001",
+        "S-M049",
+        "S-M044",
+        "S-M040"
+      ],
+      "precision_at_5": 1.0
+    },
+    {
+      "scenario_id": "sarah-validation",
+      "persona_id": "sarah",
+      "phase": "Validation",
+      "top5": [
+        "S-M001",
+        "S-M049",
+        "S-M044",
+        "S-M040",
+        "S-M019"
+      ],
+      "relevant_in_top5": [
+        "S-M001",
+        "S-M049",
+        "S-M040",
+        "S-M019"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "sarah-production",
+      "persona_id": "sarah",
+      "phase": "Production",
+      "top5": [
+        "S-M027",
+        "S-M025",
+        "S-M001",
+        "S-M019",
+        "S-M046"
+      ],
+      "relevant_in_top5": [
+        "S-M027",
+        "S-M025",
+        "S-M001",
+        "S-M019"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "priya-design",
+      "persona_id": "priya",
+      "phase": "Design",
+      "top5": [
+        "S-M043",
+        "S-M012",
+        "S-M009",
+        "S-M054",
+        "S-M057"
+      ],
+      "relevant_in_top5": [
+        "S-M043",
+        "S-M012",
+        "S-M009",
+        "S-M057"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "priya-prototype",
+      "persona_id": "priya",
+      "phase": "Prototype",
+      "top5": [
+        "S-M054",
+        "S-M012",
+        "S-M009",
+        "S-M055",
+        "S-M048"
+      ],
+      "relevant_in_top5": [
+        "S-M012",
+        "S-M009",
+        "S-M048"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "priya-validation",
+      "persona_id": "priya",
+      "phase": "Validation",
+      "top5": [
+        "S-M009",
+        "S-M012",
+        "S-M054",
+        "S-M043",
+        "S-M055"
+      ],
+      "relevant_in_top5": [
+        "S-M009",
+        "S-M012",
+        "S-M054",
+        "S-M055"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "priya-production",
+      "persona_id": "priya",
+      "phase": "Production",
+      "top5": [
+        "S-M029",
+        "S-M012",
+        "S-M009",
+        "S-M043",
+        "S-M054"
+      ],
+      "relevant_in_top5": [
+        "S-M029",
+        "S-M012",
+        "S-M009",
+        "S-M054"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "raj-design",
+      "persona_id": "raj",
+      "phase": "Design",
+      "top5": [
+        "S-M056",
+        "S-M005",
+        "S-M046",
+        "S-M051",
+        "S-M012"
+      ],
+      "relevant_in_top5": [
+        "S-M056",
+        "S-M005"
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "scenario_id": "raj-prototype",
+      "persona_id": "raj",
+      "phase": "Prototype",
+      "top5": [
+        "S-M005",
+        "S-M046",
+        "S-M033",
+        "S-M056",
+        "S-M012"
+      ],
+      "relevant_in_top5": [
+        "S-M005",
+        "S-M046",
+        "S-M033",
+        "S-M056"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "raj-validation",
+      "persona_id": "raj",
+      "phase": "Validation",
+      "top5": [
+        "S-M005",
+        "S-M050",
+        "S-M030",
+        "S-M026",
+        "S-M009"
+      ],
+      "relevant_in_top5": [
+        "S-M005",
+        "S-M050",
+        "S-M030"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "raj-production",
+      "persona_id": "raj",
+      "phase": "Production",
+      "top5": [
+        "S-M005",
+        "S-M033",
+        "S-M050",
+        "S-M046",
+        "S-M012"
+      ],
+      "relevant_in_top5": [
+        "S-M005",
+        "S-M033",
+        "S-M050"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "marcus-design",
+      "persona_id": "marcus",
+      "phase": "Design",
+      "top5": [
+        "S-M014",
+        "S-M042",
+        "S-M032",
+        "S-M017",
+        "S-M053"
+      ],
+      "relevant_in_top5": [
+        "S-M014",
+        "S-M042"
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "scenario_id": "marcus-prototype",
+      "persona_id": "marcus",
+      "phase": "Prototype",
+      "top5": [
+        "S-M014",
+        "S-M037",
+        "S-M017",
+        "S-M032",
+        "S-M005"
+      ],
+      "relevant_in_top5": [
+        "S-M014",
+        "S-M017",
+        "S-M005"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "marcus-validation",
+      "persona_id": "marcus",
+      "phase": "Validation",
+      "top5": [
+        "S-M014",
+        "S-M037",
+        "S-M032",
+        "S-M052",
+        "S-M005"
+      ],
+      "relevant_in_top5": [
+        "S-M014",
+        "S-M037",
+        "S-M005"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "marcus-production",
+      "persona_id": "marcus",
+      "phase": "Production",
+      "top5": [
+        "S-M014",
+        "S-M032",
+        "S-M037",
+        "S-M052",
+        "S-M053"
+      ],
+      "relevant_in_top5": [
+        "S-M014",
+        "S-M032",
+        "S-M052",
+        "S-M053"
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "scenario_id": "lena-design",
+      "persona_id": "lena",
+      "phase": "Design",
+      "top5": [
+        "S-M023",
+        "S-M053",
+        "S-M014",
+        "S-M042",
+        "S-M032"
+      ],
+      "relevant_in_top5": [
+        "S-M023",
+        "S-M014",
+        "S-M042"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "lena-prototype",
+      "persona_id": "lena",
+      "phase": "Prototype",
+      "top5": [
+        "S-M014",
+        "S-M038",
+        "S-M017",
+        "S-M032",
+        "S-M053"
+      ],
+      "relevant_in_top5": [
+        "S-M014",
+        "S-M017"
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "scenario_id": "lena-validation",
+      "persona_id": "lena",
+      "phase": "Validation",
+      "top5": [
+        "S-M014",
+        "S-M038",
+        "S-M032",
+        "S-M053",
+        "S-M045"
+      ],
+      "relevant_in_top5": [
+        "S-M014",
+        "S-M038"
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "scenario_id": "lena-production",
+      "persona_id": "lena",
+      "phase": "Production",
+      "top5": [
+        "S-M053",
+        "S-M014",
+        "S-M032",
+        "S-M031",
+        "S-M045"
+      ],
+      "relevant_in_top5": [
+        "S-M053",
+        "S-M014",
+        "S-M032",
+        "S-M031"
+      ],
+      "precision_at_5": 0.8
+    }
+  ],
+  "stress_precision_at_5": [
+    {
+      "scenario_id": "sarah-vibration",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "top5": [
+        "S-M001",
+        "S-M040",
+        "S-M019",
+        "S-M049",
+        "S-M044"
+      ],
+      "relevant_in_top5": [
+        "S-M001",
+        "S-M040",
+        "S-M019",
+        "S-M049",
+        "S-M044"
+      ],
+      "precision_at_5": 1.0
+    },
+    {
+      "scenario_id": "sarah-thermal",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "top5": [
+        "S-M055",
+        "S-M036",
+        "S-M009",
+        "S-M019",
+        "S-M001"
+      ],
+      "relevant_in_top5": [
+        "S-M009",
+        "S-M019",
+        "S-M001"
+      ],
+      "precision_at_5": 0.6
+    },
+    {
+      "scenario_id": "raj-narrow-negative-feedback",
+      "persona_id": "raj",
+      "phase": "Prototype",
+      "top5": [
+        "S-M001",
+        "S-M040",
+        "S-M005",
+        "S-M046",
+        "S-M012"
+      ],
+      "relevant_in_top5": [
+        "S-M005",
+        "S-M046"
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "scenario_id": "sarah-expired-priorities",
+      "persona_id": "sarah",
+      "phase": "Prototype",
+      "top5": [
+        "S-M019",
+        "S-M001",
+        "S-M049",
+        "S-M044",
+        "S-M040"
+      ],
+      "relevant_in_top5": [
+        "S-M019",
+        "S-M001",
+        "S-M049",
+        "S-M044",
+        "S-M040"
+      ],
+      "precision_at_5": 1.0
+    },
+    {
+      "scenario_id": "priya-feedback-decay",
+      "persona_id": "priya",
+      "phase": "Prototype",
+      "top5": [
+        "S-M054",
+        "S-M009",
+        "S-M012",
+        "S-M055",
+        "S-M048"
+      ],
+      "relevant_in_top5": [
+        "S-M009",
+        "S-M012",
+        "S-M048"
+      ],
+      "precision_at_5": 0.6
+    }
+  ],
+  "prototype_pairwise_top3_jaccard": [
+    {
+      "personas": [
+        "sarah",
+        "priya"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M019",
+        "S-M001",
+        "S-M049"
+      ],
+      "second_top3": [
+        "S-M054",
+        "S-M012",
+        "S-M009"
+      ]
+    },
+    {
+      "personas": [
+        "sarah",
+        "raj"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M019",
+        "S-M001",
+        "S-M049"
+      ],
+      "second_top3": [
+        "S-M005",
+        "S-M046",
+        "S-M033"
+      ]
+    },
+    {
+      "personas": [
+        "sarah",
+        "marcus"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M019",
+        "S-M001",
+        "S-M049"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M037",
+        "S-M017"
+      ]
+    },
+    {
+      "personas": [
+        "sarah",
+        "lena"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M019",
+        "S-M001",
+        "S-M049"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M038",
+        "S-M017"
+      ]
+    },
+    {
+      "personas": [
+        "priya",
+        "raj"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M054",
+        "S-M012",
+        "S-M009"
+      ],
+      "second_top3": [
+        "S-M005",
+        "S-M046",
+        "S-M033"
+      ]
+    },
+    {
+      "personas": [
+        "priya",
+        "marcus"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M054",
+        "S-M012",
+        "S-M009"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M037",
+        "S-M017"
+      ]
+    },
+    {
+      "personas": [
+        "priya",
+        "lena"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M054",
+        "S-M012",
+        "S-M009"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M038",
+        "S-M017"
+      ]
+    },
+    {
+      "personas": [
+        "raj",
+        "marcus"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M005",
+        "S-M046",
+        "S-M033"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M037",
+        "S-M017"
+      ]
+    },
+    {
+      "personas": [
+        "raj",
+        "lena"
+      ],
+      "jaccard": 0.0,
+      "first_top3": [
+        "S-M005",
+        "S-M046",
+        "S-M033"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M038",
+        "S-M017"
+      ]
+    },
+    {
+      "personas": [
+        "marcus",
+        "lena"
+      ],
+      "jaccard": 0.5,
+      "first_top3": [
+        "S-M014",
+        "S-M037",
+        "S-M017"
+      ],
+      "second_top3": [
+        "S-M014",
+        "S-M038",
+        "S-M017"
+      ]
+    }
+  ],
+  "prototype_to_production": [
+    {
+      "persona_id": "sarah",
+      "prototype_top3": [
+        "S-M019",
+        "S-M001",
+        "S-M049"
+      ],
+      "production_top3": [
+        "S-M027",
+        "S-M025",
+        "S-M001"
+      ],
+      "entered": [
+        "S-M025",
+        "S-M027"
+      ],
+      "exited": [
+        "S-M019",
+        "S-M049"
+      ],
+      "changed": true
+    },
+    {
+      "persona_id": "priya",
+      "prototype_top3": [
+        "S-M054",
+        "S-M012",
+        "S-M009"
+      ],
+      "production_top3": [
+        "S-M029",
+        "S-M012",
+        "S-M009"
+      ],
+      "entered": [
+        "S-M029"
+      ],
+      "exited": [
+        "S-M054"
+      ],
+      "changed": true
+    },
+    {
+      "persona_id": "raj",
+      "prototype_top3": [
+        "S-M005",
+        "S-M046",
+        "S-M033"
+      ],
+      "production_top3": [
+        "S-M005",
+        "S-M033",
+        "S-M050"
+      ],
+      "entered": [
+        "S-M050"
+      ],
+      "exited": [
+        "S-M046"
+      ],
+      "changed": true
+    },
+    {
+      "persona_id": "marcus",
+      "prototype_top3": [
+        "S-M014",
+        "S-M037",
+        "S-M017"
+      ],
+      "production_top3": [
+        "S-M014",
+        "S-M032",
+        "S-M037"
+      ],
+      "entered": [
+        "S-M032"
+      ],
+      "exited": [
+        "S-M017"
+      ],
+      "changed": true
+    },
+    {
+      "persona_id": "lena",
+      "prototype_top3": [
+        "S-M014",
+        "S-M038",
+        "S-M017"
+      ],
+      "production_top3": [
+        "S-M053",
+        "S-M014",
+        "S-M032"
+      ],
+      "entered": [
+        "S-M032",
+        "S-M053"
+      ],
+      "exited": [
+        "S-M017",
+        "S-M038"
+      ],
+      "changed": true
+    }
+  ],
+  "relationship_evaluation": {
+    "labeled_pairs": [
+      {
+        "source_ids": [
+          "M005",
+          "M006"
+        ],
+        "expected": "SUPERSEDED",
+        "observed": "SUPERSEDED",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M006",
+          "M007"
+        ],
+        "expected": "DUPLICATE",
+        "observed": "DUPLICATE",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M001",
+          "M002"
+        ],
+        "expected": "CONFLICT",
+        "observed": "CONFLICT",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M001",
+          "M003"
+        ],
+        "expected": "UNRESOLVED_DIFFERENCE",
+        "observed": "UNRESOLVED_DIFFERENCE",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M002",
+          "M004"
+        ],
+        "expected": "DUPLICATE",
+        "observed": "DUPLICATE",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M009",
+          "M010"
+        ],
+        "expected": "UNRESOLVED_DIFFERENCE",
+        "observed": "UNRESOLVED_DIFFERENCE",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M012",
+          "M013"
+        ],
+        "expected": "UNRESOLVED_DIFFERENCE",
+        "observed": "UNRESOLVED_DIFFERENCE",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M014",
+          "M015"
+        ],
+        "expected": "SUPERSEDED",
+        "observed": "SUPERSEDED",
+        "match": true
+      },
+      {
+        "source_ids": [
+          "M046",
+          "M047"
+        ],
+        "expected": "DUPLICATE",
+        "observed": "DUPLICATE",
+        "match": true
+      }
+    ],
+    "by_class": {
+      "DUPLICATE": {
+        "expected": 3,
+        "correct": 3,
+        "missed": 0
+      },
+      "SUPERSEDED": {
+        "expected": 2,
+        "correct": 2,
+        "missed": 0
+      },
+      "CONFLICT": {
+        "expected": 1,
+        "correct": 1,
+        "missed": 0
+      },
+      "UNRESOLVED_DIFFERENCE": {
+        "expected": 3,
+        "correct": 3,
+        "missed": 0
+      }
+    },
+    "false_scientific_conflicts_on_unresolved": 0,
+    "unresolved_pairs_checked": 3
+  },
+  "faithfulness": {
+    "final_summary_count": 125,
+    "identifier_pass_count": 125,
+    "identifier_pass_rate": 1.0,
+    "unsupported_identifier_fallback": true,
+    "scope": "identifier-level factual consistency, not full semantic hallucination detection"
+  },
+  "precision_summary": {
+    "macro_mean": 0.65,
+    "minimum": 0.4,
+    "maximum": 1.0,
+    "below_0_60": [
+      "sarah-design",
+      "raj-design",
+      "marcus-design",
+      "lena-prototype",
+      "lena-validation"
+    ]
+  }
+}

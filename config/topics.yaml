@@ -1,0 +1,100 @@
+keywords:
+  vibration:
+  - vibration
+  - resonance
+  motor:
+  - motor
+  - driver chip
+  integration:
+  - integration
+  - fit check
+  - assembly fit
+  tolerance:
+  - tolerance
+  - dfm
+  - clearance
+  testing:
+  - testing
+  - test
+  - validation
+  - reliability
+  thermal:
+  - thermal
+  - temperature
+  - cooling
+  battery:
+  - battery
+  - power board
+  - voltage
+  firmware_if:
+  - firmware
+  - error code
+  - interface
+  - e204
+  supplier:
+  - supplier
+  - vendor
+  - procurement
+  lead_time:
+  - lead time
+  - delivery
+  - shipment
+  - logistics
+  quality:
+  - quality
+  - yield
+  - inspection
+  milestone:
+  - milestone
+  - schedule
+  - deadline
+  dependency:
+  - dependency
+  - handoff
+  - blocked by
+  scope:
+  - scope
+  - customer
+  - trade-off
+  design_decision:
+  - design decision
+  - connector selection
+  - architecture
+  - cad
+  - requirements
+affects_keywords:
+  motor_mount:
+  - motor mount
+  - motor-mount
+  - mm-2100
+  chassis:
+  - chassis
+  motor_driver:
+  - driver chip
+  - motor driver
+  - md-4820-x
+  battery_pack:
+  - battery
+  - bp-2400
+  power_board:
+  - power board
+  - pb-4800
+  bom:
+  - bom
+  - driver chip
+  - supplier
+  - shipment
+  - procurement
+  vendor_contracts:
+  - vendor
+  - supplier
+  - contract
+  schedule:
+  - milestone
+  - schedule
+  - deadline
+  - dependency
+  roadmap:
+  - scope
+  - customer
+  - roadmap
