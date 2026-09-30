@@ -1,6 +1,7 @@
-# EverCurrent Adaptive Daily Digest
+# EverCurrent Adaptive Daily Digest  
 
-### 🚀 [Launch Live Demo](https://evercurrent-daily-digest.streamlit.app)
+### 🚀 [Launch Live Demo](https://evercurrent-daily-digest.streamlit.app)  
+
 
 **Interactive Streamlit MVP** · [Technical Answers](docs/ANSWERS.pdf) · [Architecture](docs/architecture.png)
 
