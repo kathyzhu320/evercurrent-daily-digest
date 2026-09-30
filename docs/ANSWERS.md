@@ -1,31 +1,45 @@
-# Five AI technical questions
+# EverCurrent Technical Interview Questions — AI
 
-## 1. How do you handle LLMs losing context in long-running or multi-step workflows?
+## LLM Behavior
 
-I first decide what must survive between steps: source IDs, authorization, decisions already made, and the current user intent. I keep those as structured state outside the model instead of relying on a growing conversation transcript. Each step receives only the state and evidence it needs, returns a small validated result, and checkpoints any important decision. If a step fails, I can retry from that checkpoint without asking the model to reconstruct history.
+### 1. How do you handle LLMs losing context in long-running or multi-step workflows?
 
-For this digest, retrieval, grouping, ranking, and ACL are deterministic. The summarizer sees only the final authorized Top-K stories with source IDs and relationship evidence; its output is checked and cached against a source fingerprint. If I extended this into a longer workflow, I would add explicit step schemas, versioned state, and replay tests before adding more model context.
+I first decide what information really needs to survive between steps, such as source IDs, permissions, earlier decisions, and the user’s current intent. I prefer to keep that information as structured state outside the model instead of depending on an increasingly long chat history. Each step should receive only the context it needs, return a small validated result, and save important decisions so the workflow can be retried without asking the model to reconstruct everything from scratch.
 
-## 2. What if vector search returns nearly identical results with small but critical differences?
+In this Daily Digest project, retrieval, grouping, ranking, and ACL checks are deterministic. The summarizer only sees the final authorized Top-K stories, along with source IDs and relationship evidence, and its output is checked against the source content before being cached. If I extended this into a longer workflow, I would add clearer step schemas, versioned state, and replayable checkpoints before simply increasing the model context window.
 
-I treat similarity as a candidate-generation signal, not proof that two engineering messages say the same thing. A 24V result and a 48V result can be lexically almost identical yet imply very different decisions. I would filter by ACL and metadata first, union semantic candidates with keyword and exact-identifier hits, and compare typed numbers, units, revisions, dates, and part IDs before grouping facts.
+---
 
-This MVP uses deterministic TF-IDF plus exact-match union because the dataset is small. Its relationship rules keep duplicates, explicit replacements, and unresolved differences separate. M001/M002 are comparable measurements with different values; M001/M003 use different RPM and should not be called a scientific contradiction. At production scale I would consider embeddings for recall, but retain the exact-identifier guard and human review for disputed facts.
+## Retrieval
 
-## 3. How do you evaluate LLM-generated summaries or content?
+### 2. How do you address cases where vector similarity returns many nearly identical results with small but critical differences?
 
-I separate *selection quality* from *summary quality*. For selection, I use human-reviewed persona × phase relevance labels, report Precision@5 per scenario and the macro average, and check persona divergence and phase sensitivity without tuning labels to the output. For summaries, I check that important identifiers in the text are present in authorized sources, test invalid and unsupported outputs, and inspect whether conflicts and superseded values remain accurately attributed. I would sample summaries for human review because a passing identifier check does not prove that the causal meaning is correct.
+I treat similarity as a way to find candidates, not as proof that two engineering messages mean the same thing. In hardware work, a small difference like 24V vs. 48V, a different revision, part number, date, or test condition can completely change the meaning. So I would first filter by ACL and metadata, then combine semantic candidates with keyword and exact-identifier matches, and compare those critical fields before grouping messages together.
 
-The current demo records source IDs, uses a deterministic fallback on failed checks, and deliberately summarizes conflict/update chains without an LLM choosing a winner. In production I would add reviewer rubrics for factual attribution, usefulness, and omission, then monitor feedback and regressions over time. I would not describe the current identifier check as full hallucination detection.
+For this MVP, the dataset is small, so I used deterministic TF-IDF plus exact-match retrieval instead of adding embeddings just for complexity. The relationship logic then separates duplicates, explicit replacements, conflicts, and unresolved differences. For example, M001 and M002 are comparable measurements with different values, while M001 and M003 were taken at different RPMs and should not be treated as a direct contradiction. At production scale, I would likely use embeddings to improve recall, but I would still keep identifier-level checks and source traceability.
 
-## 4. When would you use function calling versus MCP in production?
+---
 
-I start with the boundary of the system. If one application has a small, known set of operations, ordinary typed functions or direct function calling are easier to test, authorize, and observe. That is enough for this MVP: its pipeline is local, and adding a protocol layer would not improve the digest. I would use MCP when the same governed capabilities need to be discovered and reused across multiple model clients or tools, with clear schemas and permissions.
+## Evaluation
 
-The tradeoff is operational complexity. MCP does not replace access control, source validation, or audit logs; it exposes capabilities that still need those controls. If EverCurrent later offered its digest or engineering knowledge as a shared tool for other assistants, I would evaluate MCP then. I would keep ranking and ACL server-owned rather than letting an agent decide them.
+### 3. How do you evaluate LLM generated content/summaries?
 
-## 5. How would you handle Slack API failures?
+I separate **selection quality** from **summary quality**. A summary can sound good but still be useless if the system selected the wrong information. For selection, I use human-reviewed persona × phase relevance labels, report Precision@5 for each scenario and the macro average, and check whether rankings change in a reasonable way across personas and project phases.
 
-I first classify the failure. Rate limits should honor `Retry-After`; transient network and server failures get bounded exponential backoff with jitter. Authentication and permission errors need operator action rather than blind retries. I would make ingestion idempotent by Slack event or message ID, track a cursor/checkpoint, and reconcile gaps with a bounded polling pass after outages. A partial channel outage must not silently look like a complete digest.
+For summary quality, I check whether important identifiers such as numbers, units, revisions, dates, and part IDs are actually supported by the authorized source messages. I also test invalid or unsupported outputs and check that conflicts or superseded values are still attributed correctly. If validation fails, the demo falls back to a deterministic summary. I would still use human review for things like factual attribution, usefulness, and missing information, because an identifier check alone cannot prove that the full meaning of a summary is correct.
 
-The UI should expose data freshness and source coverage; if ingestion is stale, I would show the last known digest with a clear warning or withhold a misleading update. This take-home uses a fixed synthetic snapshot, so no real Slack API, OAuth, event handling, or retry service is implemented. The design above is the next reliability step if the prototype is connected to Slack.
+---
+
+## System Design
+
+### 4. When would you use function calling vs MCP in production?
+
+I would start with the scope of the system. If one application has a small and known set of operations, typed functions or direct function calling are usually simpler to test, authorize, and maintain. That is enough for this MVP because the pipeline is local and the available operations are fixed. Adding MCP here would mostly add another layer without improving the actual digest experience.
+
+I would consider MCP when the same governed capabilities need to be discovered and reused across multiple model clients or tools. For example, if EverCurrent later wanted its engineering knowledge or digest capabilities to be shared across several assistants, MCP could provide a standard way to expose those tools and schemas. I would still keep important logic such as ranking and ACL on the server side, because MCP does not replace access control, source validation, or audit logging.
+
+### 5. How would you handle Slack API failures?
+
+I would handle different failure types differently. Rate limits should follow `Retry-After`; temporary network or server failures should use bounded exponential backoff with jitter; and authentication or permission errors should stop retrying and trigger an authorization or operator workflow instead.
+
+I would also make ingestion idempotent using Slack event or message IDs, keep a cursor or checkpoint, and use a bounded polling pass to recover missed events after an outage. Most importantly, a partial failure should not silently look like a complete digest. The UI should show data freshness and source coverage, and if the data is stale I would either show the last known digest with a clear warning or avoid showing a misleading update. This take-home uses a fixed synthetic snapshot, so real Slack OAuth, Events API handling, and retry infrastructure are intentionally not implemented; those would be the next reliability layer for a production version.
